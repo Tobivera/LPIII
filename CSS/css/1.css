@@ -1,0 +1,31 @@
+/*Agregar fuentes externas para el h1*/
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+/*Agregar fuentes internas dentro del proyecto*/
+@font-face {
+    font-family: embassy;
+    src: url(embassy-bt.ttf);
+}
+/*Ejercicio 1 Llamar estilos css desde un archivo*/
+/*Estilos generales de las etiquetas (No recomendado)*/
+h1{
+    text-align: center;/* Sirve para centrar el texto*/
+    font-family: 'Tangerine', serif;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    text-decoration: underline;
+    color: blue;
+    background: turquoise;
+}
+a{
+    color: darkred;
+    background: coral;
+}
+p{
+   /* font-family: initial;*/
+   font-family: embassy;/*Utilizar una fuente interna*/
+    color: blueviolet;
+    background: chartreuse;
+
+}
+body{
+    background-color: dodgerblue;
+}
